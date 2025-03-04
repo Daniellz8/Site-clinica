@@ -2,5 +2,19 @@
 
 /*
 Cor da fonte: #000008c
+
 Estilo de fonte: Source Sans pro
+
 Limite de largura das paginas: 1024px
+
+links topo: 
+margin-left:15px;
+padding:10px;
+*/
+
+* {
+margin:0px;
+font-family: Source Sans Pro', sans-serif;
+}
+
+/* Topo */
