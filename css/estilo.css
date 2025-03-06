@@ -122,7 +122,7 @@ header {
     background-color: darkgrey;
 }
 
-.paragrafo-secao-sobre, .paragrafo-secao-especialidades, .paragrafo-secao-contato {
+.paragrafo-secao-sobre, .paragrafo-secao-especialidades, .paragrafo-secao-contato, .paragrafo-rodape {
     padding: 5px 20px 20px 20px;
     width: 1024px;
     background-color: darkkhaki;
@@ -222,5 +222,28 @@ header {
     background-color: darkorange;
 }
 
+/* iframe */
+
+iframe {
+    width: 1024px;
+    height: 400px;
+}
+
 /* footer */
 
+.rodape {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #00cad1;
+    width: 100%;
+    height: 250px;
+}
+
+.conteudo-rodape {
+    text-align: center;
+    width: 1024px;
+    height: 250px;
+    color: #ffffff;
+    background-color: darkgrey;
+}
