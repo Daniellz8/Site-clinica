@@ -108,21 +108,27 @@ header {
     background-color: blueviolet;
 }
 
-.sobre {
+/* Reaproveitando classes */
+
+.sobre, .especialidades, .secao-contato {
     text-align: center;
     width: 1024px;
-    padding: 0px;
     background-color: #00cad1;
 }
 
-.sobre h2 {
-    font-size: 30px;
-    padding: 20px 0px 10px 0px;
+.titulo-secao-sobre, .titulo-secao-especialidades, .titulo-secao-contato {
+    padding: 20px 0px 5px 0px;
+    width: 1024px;
+    background-color: darkgrey;
 }
 
-.sobre p {
-    padding: 0px 20px 20px 20px;
+.paragrafo-secao-sobre, .paragrafo-secao-especialidades, .paragrafo-secao-contato {
+    padding: 5px 20px 20px 20px;
+    width: 1024px;
+    background-color: darkkhaki;
 }
+
+/**/
 
 .img-e-lista {
     display: flex;
@@ -141,7 +147,6 @@ header {
     padding: 20px 0px;
     font-weight: 400;
     text-align: center;
-    font-size: 20px;
     background-color: darkgreen;
 }
 
@@ -151,3 +156,71 @@ header {
 }
 
 /* Terceira seção especialidades */
+
+.terceira-secao-especialidades {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: cadetblue;
+}
+
+.cards-especialidades {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    width: 1024px;
+    background-color: #ffffff;
+}
+
+.cards-especialidades img {
+    width: 300px;
+    height: 200px;
+}
+
+.cards-especialidades h3 {
+    padding: 10px 0px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.link-horarios {
+    display: flex;
+}
+
+/* Cards */
+
+.card-um, .card-dois, .card-tres {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 0px #0000008c;
+}
+
+/* Botão - ver horários*/
+
+.link-horarios a {
+    margin: 20px;
+    padding: 10px 20px ;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #00cad1;
+}
+
+/* Seção contato */
+
+.secao-contato {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: darkorange;
+}
+
+/* footer */
+
