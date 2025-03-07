@@ -1,0 +1,56 @@
+
+/* Geral */
+
+
+* {
+    margin: 0px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #0000008c;
+    box-sizing: border-box;
+}
+    
+/* Topo */
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #00cad1;
+    width: 100%;
+    height: 80px;
+}
+
+.secao-um-header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1024px;
+    height: 80px;
+    background-color: crimson;
+}
+
+.links-topo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+}
+
+.links-topo a {
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+    padding: 10px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.logo-topo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+}
+
