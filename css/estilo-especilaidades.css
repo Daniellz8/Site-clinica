@@ -86,20 +86,3 @@ header {
 
 /* Conheça nossas especialidades */
 
-.conheca-especialidades {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    height: 100px;
-    background-color: #00cad1;
-}
-
-.titulo-secao-especialidades {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 1024px;
-    height: 50px;
-    background-color: blueviolet;
-}
