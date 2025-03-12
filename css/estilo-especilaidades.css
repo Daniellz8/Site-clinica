@@ -70,7 +70,8 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 1024px;
+    justify-content: space-between;
+    width: 512px;
     height: 60px;
     background-color: darkgray;
 }
@@ -98,7 +99,7 @@ header {
 .titulo-secao-especialidades h1 {
     font-size: 24px;
     font-weight: 700;
-    width: 1024px;
+    width: 512px;
     height: 60px;
     display: flex;
     justify-content: center;
@@ -124,6 +125,39 @@ header {
     align-items: center;
     flex-wrap: wrap;
     width: 1024px;
-    background-color: #00cad1;
+    background-color: darkolivegreen;
 }
 
+.descricao-secao-especialidades {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 1024px;
+    background-color: darkorange;
+}
+
+.descricao-secao-especialidades h2 {
+    font-size: 22px;
+    font-weight: 700;
+    width: 512px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: cornflowerblue;
+}
+
+.descricao-secao-especialidades p {
+    font-size: 16px;
+    font-weight: 400;
+    width: 512px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: darkgray;
+}
