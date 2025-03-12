@@ -216,10 +216,16 @@ tbody td {
     display: flex;
     align-items: center;
     justify-content: center;
+<<<<<<< HEAD
     background-color: #0C6E71;
     width: 100%;
     height: 250px;
     margin-top: 40px;
+=======
+    background-color: #00cad1;
+    width: 100%;
+    height: 250px;
+>>>>>>> f2cbb26 (Atualização 1.0.7 (Finalizado o desenvolvimento do estilo da pagina de especicialidades))
 }
 
 .conteudo-rodape {
@@ -227,6 +233,7 @@ tbody td {
     width: 1024px;
     height: 250px;
     color: #ffffff;
+<<<<<<< HEAD
 }
 
 .paragrafo-rodape {
@@ -234,3 +241,13 @@ tbody td {
     width: 1024px;
     color: #ffffff;
 }
+=======
+    background-color: darkgrey;
+}
+
+.paragrafo-rodape {
+    padding: 5px 20px 20px 20px;
+    width: 1024px;
+    background-color: darkkhaki;
+}
+>>>>>>> f2cbb26 (Atualização 1.0.7 (Finalizado o desenvolvimento do estilo da pagina de especicialidades))
