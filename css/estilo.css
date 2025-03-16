@@ -24,7 +24,6 @@ header {
     justify-content: space-between;
     width: 1024px;
     height: 80px;
-    background-color: crimson;
 }
 
 .links-topo {
@@ -60,7 +59,7 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
-    height: 500px;
+    height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -71,7 +70,6 @@ header {
     align-items: center;
     width: 1024px;
     height: 200px;
-    background-color: #00cad1;
 }
 
 .titulo {
@@ -93,7 +91,6 @@ header {
     justify-content: center;
     flex-direction: column;
     width: 100%;
-    background-color: blueviolet;
 }
 
 /* Reaproveitando classes */
@@ -101,19 +98,17 @@ header {
 .sobre, .especialidades, .secao-contato {
     text-align: center;
     width: 1024px;
-    background-color: #00cad1;
+    margin-top: 20px
 }
 
 .titulo-secao-sobre, .titulo-secao-especialidades, .titulo-secao-contato {
     padding: 20px 0px 5px 0px;
     width: 1024px;
-    background-color: darkgrey;
 }
 
 .paragrafo-secao-sobre, .paragrafo-secao-especialidades, .paragrafo-secao-contato, .paragrafo-rodape {
-    padding: 5px 20px 20px 20px;
+    padding: 5px 20px 40px 20px;
     width: 1024px;
-    background-color: darkkhaki;
 }
 
 /**/
@@ -123,7 +118,6 @@ header {
     justify-content: center;
     align-items: center;
     width: 1024px;
-    background-color: coral;
 }
 
 .img-e-lista img {
@@ -135,12 +129,10 @@ header {
     padding: 20px 0px;
     font-weight: 400;
     text-align: center;
-    background-color: darkgreen;
 }
 
 .img-e-lista li {
     padding: 2px;
-    background-color: darkred;
 }
 
 /* Terceira seção especialidades */
@@ -151,7 +143,6 @@ header {
     justify-content: center;
     flex-direction: column;
     width: 100%;
-    background-color: cadetblue;
 }
 
 .cards-especialidades {
@@ -176,6 +167,7 @@ header {
 
 .link-horarios {
     display: flex;
+    margin: 15px 0px;
 }
 
 /* Cards */
@@ -192,7 +184,7 @@ header {
 /* Botão - ver horários*/
 
 .link-horarios a {
-    margin: 20px;
+    margin-top: 20px;
     padding: 10px 20px ;
     text-decoration: none;
     color: #ffffff;
@@ -207,7 +199,6 @@ header {
     justify-content: center;
     flex-direction: column;
     width: 100%;
-    background-color: darkorange;
 }
 
 /* iframe */
@@ -215,6 +206,7 @@ header {
 iframe {
     width: 1024px;
     height: 400px;
+    margin: 20px 0px 40px 0px;
 }
 
 /* footer */
@@ -225,13 +217,11 @@ iframe {
     justify-content: center;
     background-color: #00cad1;
     width: 100%;
-    height: 250px;
+    height: 300px;
 }
 
 .conteudo-rodape {
     text-align: center;
     width: 1024px;
-    height: 250px;
     color: #ffffff;
-    background-color: darkgrey;
 }
