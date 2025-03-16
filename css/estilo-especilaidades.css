@@ -18,7 +18,8 @@ header {
     align-items: center;
     background-color: #00cad1;
     width: 100%;
-    height: 80px;
+    height: 60px;
+    position: fixed;
 }
 
 .secao-um-header {
@@ -26,15 +27,14 @@ header {
     flex-wrap: wrap;
     justify-content: space-between;
     width: 1024px;
-    height: 80px;
-    background-color: crimson;
+    height: 60px;
 }
 
 .links-topo {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 80px;
+    height: 60px;
 }
 
 .links-topo a {
@@ -51,7 +51,11 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 80px;
+    height: 60px;
+}
+
+.logo {
+    width: 150px;
 }
 
 /* Primeira seção (navegação) */
@@ -63,7 +67,6 @@ header {
     flex-direction: column;
     width: 100%;
     height: 60px;
-    background-color: darkgreen;
 }
 
 .links-secao-navegacao {
@@ -73,7 +76,6 @@ header {
     justify-content: space-between;
     width: 512px;
     height: 60px;
-    background-color: darkgray;
 }
 
 .links-secao-navegacao a {
@@ -93,7 +95,6 @@ header {
     align-items: center;
     width: 100%;
     height: 60px;
-    background-color: #00cad1;
 }
 
 .titulo-secao-especialidades h1 {
@@ -105,7 +106,6 @@ header {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: coral;
 }
 
 /* main */
@@ -116,7 +116,6 @@ header {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    background-color: lightgray;
 }
 
 .conteudo-da-pagina img {
@@ -142,7 +141,6 @@ header {
     align-items: center;
     flex-wrap: wrap;
     width: 1024px;
-    background-color: darkolivegreen;
 }
 
 .ortopedia, .pediatria, .geriatria, .psicologia, .fisioterapia {
@@ -152,7 +150,6 @@ header {
     flex-direction: column;
     flex-wrap: wrap;
     width: 1024px;
-    background-color: darkorange;
 }
 
 .ortopedia h2, .pediatria h2, .geriatria h2, .psicologia h2, .fisioterapia h2 {
@@ -165,7 +162,6 @@ header {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: cornflowerblue;
 }
 
 .ortopedia p, .pediatria p, .geriatria p, .psicologia p, .fisioterapia p {
@@ -177,7 +173,6 @@ header {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: darkgray;
 }
 
 
@@ -221,9 +216,10 @@ tbody td {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #00cad1;
+    background-color: #0C6E71;
     width: 100%;
     height: 250px;
+    margin-top: 40px;
 }
 
 .conteudo-rodape {
@@ -231,11 +227,10 @@ tbody td {
     width: 1024px;
     height: 250px;
     color: #ffffff;
-    background-color: darkgrey;
 }
 
 .paragrafo-rodape {
-    padding: 5px 20px 20px 20px;
+    padding: 5px 0px;
     width: 1024px;
-    background-color: darkkhaki;
+    color: #ffffff;
 }
